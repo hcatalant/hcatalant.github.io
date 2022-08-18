@@ -1,0 +1,80 @@
+/*
+ Estilos generales
+*/
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    line-height: 2;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.2;
+}
+
+
+/*
+    Estilo para cabecera
+*/
+
+.site-header{
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.site-header .texto-header{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-header .texto-header h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.site-header .texto-header p{
+    font-size: 1.2rem;
+}
+.barra a h1{
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: lighter;
+}
+
+.barra a h1 span{
+    font-weight: bold;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barra a{
+    text-decoration: none;
+}
+
+.site-header .navegacion{
+    display: flex;
+    gap: 2rem;
+}
+
+.site-header .navegacion a{
+    color: #ffffff;
+}
