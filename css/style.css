@@ -118,7 +118,8 @@ h4{
 }
 
 .contenedor{
-    width: 100%;
+    margin: 0 auto;
+    width: 90%;
 }
 .contenido-principal {
         max-width: 90%;
@@ -155,17 +156,29 @@ h4{
 }
 
 
-
+.curso-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 3em;
+}
 .cursos-lista{
     list-style: none;
 }
-
+.cursos-lista .curso .curso-imagen img{
+    width: 100%;
+    height: auto;
+}
 .cursos-lista .curso p{
     font-size: 1.4em;
     font-weight: bold;
 }
 .cursos-lista .curso p span{
     font-size: 1em;
+    font-weight: normal;
+}
+
+.cursos-lista .curso .curso-descripcion{
+    font-size: 1.1em;
     font-weight: normal;
 }
 
