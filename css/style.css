@@ -129,6 +129,20 @@ h4{
     margin-right: 5%;
 }
 
+.contenido-principal-2 {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contenido-principal-2 .imagen img{
+    width: auto;
+    height: 400px;
+}
+
 .blog .entrada-blog,  .cursos-lista .curso{
     border-bottom: 1px solid #ccc;
     margin-bottom: 2em;
@@ -159,4 +173,14 @@ h4{
     background-color: rgba(0, 0, 0, 0.96);
     color: #fff;
     padding: 1em 0;
+}
+
+
+/*
+    Estilos para pagina de Nosotros
+ */
+
+
+.text-center{
+    text-align: center;
 }
