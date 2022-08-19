@@ -197,3 +197,54 @@ h4{
 .text-center{
     text-align: center;
 }
+
+/*
+    Estilos para pagina de Contacto
+ */
+
+.contacto-bg{
+    background-image: url("../img/contacto.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.formulario {
+    background-color: #ffffff;
+    margin-top: -5em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    width: 90%;
+    padding: 5em;
+}
+
+.formulario .campo {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.formulario .campo label {
+    text-align: right;
+    padding-right: 1em;
+    flex-basis: 6em;
+}
+
+.formulario .campo input {
+    flex: 1;
+    border: 1px solid #ccc;
+}
+
+/*
+    Modificación del input si es la de enviar se alinea a la derecha
+ */
+.formulario .campo input[type="submit"]{
+    margin-left: auto;
+}
+
+.formulario .campo textarea {
+    flex: 1;
+    border: 1px solid #ccc;
+    height: 10em;
+}
